@@ -68,7 +68,7 @@
         android:layout_width="200dp"
         android:layout_height="60dp"
         android:layout_marginBottom="10dp"
-        android:text="Move Ahead" />
+        android:text="Move Ahead to Services" />
 
     <Button
         android:id="@+id/button17"
