@@ -13,7 +13,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class Tenth extends AppCompatActivity {
-    Button b20,b21,b22;
+    Button b20,b21,b22,b43;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -24,6 +24,7 @@ public class Tenth extends AppCompatActivity {
         b20=(Button) findViewById(R.id.button20);
         b21=(Button) findViewById(R.id.button21);
         b22=(Button) findViewById(R.id.button22);
+        b43=(Button) findViewById(R.id.button43);
         b20.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -45,6 +46,14 @@ public class Tenth extends AppCompatActivity {
             public void onClick(View v) {
                 Intent h=new Intent(Tenth.this, Thirteenth.class);
                 startActivity(h);
+                finish();
+            }
+        });
+        b43.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent y=new Intent(Tenth.this, Ninth.class);
+                startActivity(y);
                 finish();
             }
         });
