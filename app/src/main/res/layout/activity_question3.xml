@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Question3">
+
+    <TextView
+        android:id="@+id/textViewQuestion3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="What is the national animal of India?"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <RadioGroup
+        android:id="@+id/rg3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:paddingStart="40dp">
+
+        <RadioButton
+            android:id="@+id/rb3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lion"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rb3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiger"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rb3_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Elephant"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rb3_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Leopard"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button53"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Next Question"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>
