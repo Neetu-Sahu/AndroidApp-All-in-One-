@@ -3,4 +3,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="red">#FFFF0000</color>
+    <color name="splash_bg">#0D1B2A</color>
+    <color name="accent_cyan">#00E5FF</color>
+    <color name="dark_surface">#1A2634</color>
+    <color name="text_secondary">#90A4AE</color>
+    <color name="calci_num_bg">#2C3E50</color>
+    <color name="calci_op_bg">#00E5FF</color>
 </resources>
