@@ -5,30 +5,56 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/splash_bg"
     android:gravity="center"
     android:orientation="vertical"
     android:padding="20dp"
     tools:context=".Fifteenth">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="CALCULATOR HUB"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold|italic" />
+
     <Button
         android:id="@+id/button38"
-        android:layout_width="200dp"
+        android:layout_width="250dp"
         android:layout_height="60dp"
         android:layout_marginBottom="20dp"
-        android:text="Normal Calci" />
+        android:text="Normal Calci"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:backgroundTint="@color/accent_cyan"
+        app:cornerRadius="30dp" />
 
     <Button
         android:id="@+id/button37"
-        android:layout_width="200dp"
+        android:layout_width="250dp"
         android:layout_height="60dp"
-        android:layout_marginBottom="20dp"
-        android:text="Scientific Calci" />
+        android:layout_marginBottom="40dp"
+        android:text="Scientific Calci"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:backgroundTint="@color/dark_surface"
+        app:strokeColor="@color/accent_cyan"
+        app:strokeWidth="2dp"
+        app:cornerRadius="30dp" />
 
     <Button
         android:id="@+id/button39"
         android:layout_width="200dp"
         android:layout_height="60dp"
         android:text="Back"
-        app:backgroundTint="@color/red" />
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:backgroundTint="@color/red"
+        app:cornerRadius="30dp" />
 
 </LinearLayout>
