@@ -24,7 +24,6 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class Sixth extends AppCompatActivity {
     EditText e5,e6;
-    TextView t;
     Button b13,b14;
     FirebaseAuth fa;
 
@@ -33,7 +32,6 @@ public class Sixth extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_sixth);
-        t=(TextView)findViewById(R.id.textView3);
         e5=(EditText) findViewById(R.id.editTextText5);
         e6=(EditText) findViewById(R.id.editTextText6);
         e6.setInputType(InputType.TYPE_CLASS_TEXT|InputType.TYPE_TEXT_VARIATION_PASSWORD);
