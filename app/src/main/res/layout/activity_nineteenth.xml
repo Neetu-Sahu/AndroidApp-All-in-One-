@@ -5,22 +5,47 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/splash_bg"
     android:gravity="center"
     android:orientation="vertical"
     android:padding="16dp"
     tools:context=".Nineteenth">
 
     <TextView
-        android:id="@+id/tvDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="SCIENTIFIC"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_marginBottom="20dp"
-        android:background="#E0E0E0"
-        android:gravity="end|center_vertical"
+        android:layout_height="wrap_content"
+        android:background="#1AFFFFFF"
+        android:orientation="vertical"
         android:padding="12dp"
-        android:text="0"
-        android:textColor="#000000"
-        android:textSize="32sp" />
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/tvSciHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text=""
+            android:textColor="@color/accent_cyan"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvSciDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="32sp" />
+    </LinearLayout>
 
     <GridLayout
         android:layout_width="wrap_content"
@@ -29,39 +54,39 @@
         android:rowCount="6">
 
         <!-- Row 1: Trig -->
-        <Button android:id="@+id/btnSin" android:layout_width="80dp" android:layout_height="55dp" android:text="sin" android:layout_margin="1dp" />
-        <Button android:id="@+id/btnCos" android:layout_width="80dp" android:layout_height="55dp" android:text="cos" android:layout_margin="1dp" />
-        <Button android:id="@+id/btnTan" android:layout_width="80dp" android:layout_height="55dp" android:text="tan" android:layout_margin="1dp" />
-        <Button android:id="@+id/btnClear" android:layout_width="80dp" android:layout_height="55dp" android:text="C" android:layout_margin="1dp" />
+        <Button android:id="@+id/btnSin" android:layout_width="75dp" android:layout_height="55dp" android:text="sin" android:textColor="@color/white" android:layout_margin="1dp" app:backgroundTint="@color/calci_num_bg" />
+        <Button android:id="@+id/btnCos" android:layout_width="75dp" android:layout_height="55dp" android:text="cos" android:textColor="@color/white" android:layout_margin="1dp" app:backgroundTint="@color/calci_num_bg" />
+        <Button android:id="@+id/btnTan" android:layout_width="75dp" android:layout_height="55dp" android:text="tan" android:textColor="@color/white" android:layout_margin="1dp" app:backgroundTint="@color/calci_num_bg" />
+        <Button android:id="@+id/btnClear" android:layout_width="75dp" android:layout_height="55dp" android:text="C" android:textColor="@color/white" android:layout_margin="1dp" app:backgroundTint="@color/red" />
 
         <!-- Row 2: Sci Functions -->
-        <Button android:id="@+id/btnLog" android:layout_width="80dp" android:layout_height="55dp" android:text="log" android:layout_margin="1dp" />
-        <Button android:id="@+id/btnSqrt" android:layout_width="80dp" android:layout_height="55dp" android:text="sqrt" android:layout_margin="1dp" />
-        <Button android:id="@+id/btnSquare" android:layout_width="80dp" android:layout_height="55dp" android:text="x²" android:layout_margin="1dp" />
-        <Button android:id="@+id/btnDiv" android:layout_width="80dp" android:layout_height="55dp" android:text="/" android:layout_margin="1dp" />
+        <Button android:id="@+id/btnLog" android:layout_width="75dp" android:layout_height="55dp" android:text="log" android:textColor="@color/white" android:layout_margin="1dp" app:backgroundTint="@color/calci_num_bg" />
+        <Button android:id="@+id/btnSqrt" android:layout_width="75dp" android:layout_height="55dp" android:text="sqrt" android:textColor="@color/white" android:layout_margin="1dp" app:backgroundTint="@color/calci_num_bg" />
+        <Button android:id="@+id/btnSquare" android:layout_width="75dp" android:layout_height="55dp" android:text="x²" android:textColor="@color/white" android:layout_margin="1dp" app:backgroundTint="@color/calci_num_bg" />
+        <Button android:id="@+id/btnDiv" android:layout_width="75dp" android:layout_height="55dp" android:text="/" android:textColor="@color/black" android:layout_margin="1dp" app:backgroundTint="@color/calci_op_bg" />
 
         <!-- Row 3: Numbers -->
-        <Button android:id="@+id/btn7" android:layout_width="80dp" android:layout_height="55dp" android:text="7" android:layout_margin="1dp" />
-        <Button android:id="@+id/btn8" android:layout_width="80dp" android:layout_height="55dp" android:text="8" android:layout_margin="1dp" />
-        <Button android:id="@+id/btn9" android:layout_width="80dp" android:layout_height="55dp" android:text="9" android:layout_margin="1dp" />
-        <Button android:id="@+id/btnMul" android:layout_width="80dp" android:layout_height="55dp" android:text="*" android:layout_margin="1dp" />
+        <Button android:id="@+id/btn7" android:layout_width="75dp" android:layout_height="55dp" android:text="7" android:textColor="@color/white" android:layout_margin="1dp" app:backgroundTint="@color/calci_num_bg" />
+        <Button android:id="@+id/btn8" android:layout_width="75dp" android:layout_height="55dp" android:text="8" android:textColor="@color/white" android:layout_margin="1dp" app:backgroundTint="@color/calci_num_bg" />
+        <Button android:id="@+id/btn9" android:layout_width="75dp" android:layout_height="55dp" android:text="9" android:textColor="@color/white" android:layout_margin="1dp" app:backgroundTint="@color/calci_num_bg" />
+        <Button android:id="@+id/btnMul" android:layout_width="75dp" android:layout_height="55dp" android:text="*" android:textColor="@color/black" android:layout_margin="1dp" app:backgroundTint="@color/calci_op_bg" />
 
         <!-- Row 4: Numbers -->
-        <Button android:id="@+id/btn4" android:layout_width="80dp" android:layout_height="55dp" android:text="4" android:layout_margin="1dp" />
-        <Button android:id="@+id/btn5" android:layout_width="80dp" android:layout_height="55dp" android:text="5" android:layout_margin="1dp" />
-        <Button android:id="@+id/btn6" android:layout_width="80dp" android:layout_height="55dp" android:text="6" android:layout_margin="1dp" />
-        <Button android:id="@+id/btnMinus" android:layout_width="80dp" android:layout_height="55dp" android:text="-" android:layout_margin="1dp" />
+        <Button android:id="@+id/btn4" android:layout_width="75dp" android:layout_height="55dp" android:text="4" android:textColor="@color/white" android:layout_margin="1dp" app:backgroundTint="@color/calci_num_bg" />
+        <Button android:id="@+id/btn5" android:layout_width="75dp" android:layout_height="55dp" android:text="5" android:textColor="@color/white" android:layout_margin="1dp" app:backgroundTint="@color/calci_num_bg" />
+        <Button android:id="@+id/btn6" android:layout_width="75dp" android:layout_height="55dp" android:text="6" android:textColor="@color/white" android:layout_margin="1dp" app:backgroundTint="@color/calci_num_bg" />
+        <Button android:id="@+id/btnMinus" android:layout_width="75dp" android:layout_height="55dp" android:text="-" android:textColor="@color/black" android:layout_margin="1dp" app:backgroundTint="@color/calci_op_bg" />
 
         <!-- Row 5: Numbers -->
-        <Button android:id="@+id/btn1" android:layout_width="80dp" android:layout_height="55dp" android:text="1" android:layout_margin="1dp" />
-        <Button android:id="@+id/btn2" android:layout_width="80dp" android:layout_height="55dp" android:text="2" android:layout_margin="1dp" />
-        <Button android:id="@+id/btn3" android:layout_width="80dp" android:layout_height="55dp" android:text="3" android:layout_margin="1dp" />
-        <Button android:id="@+id/btnPlus" android:layout_width="80dp" android:layout_height="55dp" android:text="+" android:layout_margin="1dp" />
+        <Button android:id="@+id/btn1" android:layout_width="75dp" android:layout_height="55dp" android:text="1" android:textColor="@color/white" android:layout_margin="1dp" app:backgroundTint="@color/calci_num_bg" />
+        <Button android:id="@+id/btn2" android:layout_width="75dp" android:layout_height="55dp" android:text="2" android:textColor="@color/white" android:layout_margin="1dp" app:backgroundTint="@color/calci_num_bg" />
+        <Button android:id="@+id/btn3" android:layout_width="75dp" android:layout_height="55dp" android:text="3" android:textColor="@color/white" android:layout_margin="1dp" app:backgroundTint="@color/calci_num_bg" />
+        <Button android:id="@+id/btnPlus" android:layout_width="75dp" android:layout_height="55dp" android:text="+" android:textColor="@color/black" android:layout_margin="1dp" app:backgroundTint="@color/calci_op_bg" />
 
         <!-- Row 6: Dot, Zero, Equal -->
-        <Button android:id="@+id/btnDot" android:layout_width="80dp" android:layout_height="55dp" android:text="." android:layout_margin="1dp" />
-        <Button android:id="@+id/btn0" android:layout_width="80dp" android:layout_height="55dp" android:text="0" android:layout_margin="1dp" />
-        <Button android:id="@+id/btnEqual" android:layout_width="162dp" android:layout_height="55dp" android:text="=" android:layout_margin="1dp" android:layout_columnSpan="2" />
+        <Button android:id="@+id/btnDot" android:layout_width="75dp" android:layout_height="55dp" android:text="." android:textColor="@color/white" android:layout_margin="1dp" app:backgroundTint="@color/calci_num_bg" />
+        <Button android:id="@+id/btn0" android:layout_width="75dp" android:layout_height="55dp" android:text="0" android:textColor="@color/white" android:layout_margin="1dp" app:backgroundTint="@color/calci_num_bg" />
+        <Button android:id="@+id/btnEqual" android:layout_width="150dp" android:layout_height="55dp" android:text="=" android:textColor="@color/black" android:layout_margin="1dp" android:layout_columnSpan="2" app:backgroundTint="@color/calci_op_bg" />
 
     </GridLayout>
 
@@ -69,8 +94,12 @@
         android:id="@+id/btnBack"
         android:layout_width="200dp"
         android:layout_height="60dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         android:text="Back"
-        app:backgroundTint="@color/red" />
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:backgroundTint="@color/red"
+        app:cornerRadius="30dp" />
 
 </LinearLayout>
