@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/splash_bg"
     android:gravity="center"
     android:orientation="vertical"
     android:padding="20dp"
@@ -14,17 +15,19 @@
         android:id="@+id/textViewSensor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="30dp"
-        android:text="Proximity Sensor Demo"
-        android:textSize="24sp"
+        android:layout_marginBottom="40dp"
+        android:text="PROXIMITY SENSOR"
+        android:textColor="@color/white"
+        android:textSize="28sp"
         android:textStyle="bold|italic" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="50dp"
-        android:text="Bring your hand near the sensor to change color"
         android:gravity="center"
+        android:text="Wave your hand near the camera\nto see the magic"
+        android:textColor="@color/text_secondary"
         android:textSize="18sp" />
 
     <Button
@@ -32,8 +35,10 @@
         android:layout_width="200dp"
         android:layout_height="60dp"
         android:text="Back"
-        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
         android:textStyle="bold|italic"
-        app:backgroundTint="@color/red" />
+        app:backgroundTint="@color/red"
+        app:cornerRadius="30dp" />
 
 </LinearLayout>
