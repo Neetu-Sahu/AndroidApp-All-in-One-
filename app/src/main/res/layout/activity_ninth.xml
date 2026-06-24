@@ -1,29 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/splash_bg"
     android:gravity="center"
     android:orientation="vertical"
     android:padding="20dp"
     tools:context=".Ninth">
 
-    <Button
-        android:id="@+id/button19"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="16dp"
-        android:text="Mobile Services"
-        android:textSize="24sp"
-        android:textStyle="italic" />
+        android:layout_marginBottom="50dp"
+        android:text="SERVICE HUB"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="280dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="30dp"
+        android:text="MOBILE SERVICES"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:backgroundTint="@color/accent_cyan"
+        app:cornerRadius="20dp" />
 
     <Button
         android:id="@+id/button33"
-        android:layout_width="211dp"
-        android:layout_height="88dp"
-        android:text="Application Services"
-        android:textSize="24sp"
-        android:textStyle="italic" />
+        android:layout_width="280dp"
+        android:layout_height="100dp"
+        android:text="APPLICATION SERVICES"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:backgroundTint="@color/dark_surface"
+        app:strokeColor="@color/accent_cyan"
+        app:strokeWidth="2dp"
+        app:cornerRadius="20dp" />
 
 </LinearLayout>
