@@ -1,7 +1,5 @@
 # 🌟 Overview
 
-<div align="center">
-
 ### 🚀 OmniHub — Your All-in-One Utility Companion
 
 *Simplifying everyday digital experiences through a single powerful Android application.*
