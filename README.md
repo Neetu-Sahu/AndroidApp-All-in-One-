@@ -1,4 +1,20 @@
-<div align="center"> <img src="logo.png" alt="OmniHub Logo" width="180"/> # 🚀 OmniHub ### Your All-in-One Utility Companion *Simplifying everyday digital experiences through a single powerful Android application.* </div> --- # 🌟 Overview > **OmniHub** combines multiple useful utilities into one seamless platform, helping users perform everyday tasks efficiently without switching between different applications.
+<div align="center">
+
+<img src="logo.png" alt="OmniHub Logo" width="180"/>
+
+# 🚀 OmniHub
+
+### Your All-in-One Utility Companion
+
+*Simplifying everyday digital experiences through a single powerful Android application.*
+
+</div>
+
+---
+
+# 🌟 Overview
+
+> **OmniHub** combines multiple useful utilities into one seamless platform, helping users perform everyday tasks efficiently without switching between different applications.
 
 ```text
 ┌─────────────────────────────┐
