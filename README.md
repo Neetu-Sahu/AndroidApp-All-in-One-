@@ -12,14 +12,15 @@
 
 <div align="center">
 
-```text
-┌─────────────────────────────┐
-│ 🎯 One Application          │
-│ ⚡ Multiple Utilities       │
-│ 📱 Smooth User Experience   │
-│ 🔒 Secure & Reliable        │
-└─────────────────────────────┘
-</div> ```
+<pre>
+🎯 One Application
+⚡ Multiple Utilities
+📱 Smooth User Experience
+🔒 Secure & Reliable
+</pre>
+
+</div>
+
 ---
 
 # ✨ Features
