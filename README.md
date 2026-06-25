@@ -2,8 +2,6 @@
 
 <img src="logo.png" alt="OmniHub Logo" width="180"/>
 
-# 🚀 OmniHub
-
 ### Your All-in-One Utility Companion
 
 *Simplifying everyday digital experiences through a single powerful Android application.*
