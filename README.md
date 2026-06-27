@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="logo.jpg" alt="OmniHub Logo" width="180"/>
+<img src="logo.png" alt="OmniHub Logo" width="180"/>
 
 ### Your All-in-One Utility Companion
 
